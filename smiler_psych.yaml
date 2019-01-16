@@ -1,0 +1,14 @@
+experiment:
+  name: Five Singleton Search Examples
+  description: An example of SMILER using five psychophysical images with singleton targets
+  input_path: ./images/stimuli/
+  base_output_path: ./images/maps/
+  parameters:
+    center_prior : none
+
+runs:
+  - algorithm: DGII
+
+  - algorithm: BMS
+
+  - algorithm: SAM
