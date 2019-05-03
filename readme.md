@@ -2,17 +2,15 @@
 
 This is an example application which showcases the use of SMILER using the command line interface (CLI). Note that although this example is designed to showcase an interesting and non-standard exploration of the properties of saliency algorithms, it is nevertheless a toy example with only a very small number of test images. Any conclusions or judgements about algorithm performance are therefore tentative at best.
 
-This example was written by Calden Wloka, and most recently tested under SMILER version 1.0.0
+This example was written by Calden Wloka, and most recently tested under SMILER version 1.1.0
 
 ## Running instructions
 
 This readme assumes that the user has already successfully downloaded and configured SMILER. If SMILER is not set up on your system, instructions and content can be found on the [GitHub repository](https://github.com/TsotsosLab/SMILER).
 
-Note that this example includes two experiment specification files:
-`smiler_psych.yaml` provides an example which may be run on a system without the MATLAB environment installed. 
-`smiler_matlab_models.yamls` provides an extended version of the example experiment which also includes some MATLAB models which are run via the SMILER CLI.
+To run the experiment specification file included in this example, execute the command:
 
-[TODO]: give the command line call to run the yaml files, as well as explain how the python analysis scripts can be run.
+`smiler run -e [path/to/example/folder]/smiler_psych.yaml`
 
 ## Experiment description
 
