@@ -20,7 +20,7 @@ Neil D.B. Bruce, Calden Wloka, Nick Frosst, Shafin Rahman, and John Tsotsos (201
 
 Images were created using the Psychophysical Image Generator (PIG) tool, which can be found [here](http://jtl.lassonde.yorku.ca/PIG/).
 
-Model performance is evaluated by calculating the ratio of maximum target salience versus maximum distractor salience, as well as taking the ratio of the average target salience versus average distractor salience.
+Model performance is evaluated by calculating the ratio of maximum target salience versus maximum distractor salience, as well as taking the ratio of the average target salience versus average distractor salience. Average and maximum target values versus background values are also calculated.
 
 ## Experiment file descriptions
 
